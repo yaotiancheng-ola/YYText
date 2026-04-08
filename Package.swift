@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "YYText",
             path: "YYText",
-            publicHeadersPath: "include",
+            publicHeadersPath: ".",
             cSettings: [
                 .define("YYTEXT_ENABLE_SHORTHAND", to: "1")
             ],
